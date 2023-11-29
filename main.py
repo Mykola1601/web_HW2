@@ -1,6 +1,5 @@
 from prompt_toolkit import prompt
 from prompt_toolkit.completion import NestedCompleter
-
 from app.input_handler import get_comand
 from app.comands import HANDLERS, ADDRESS_BOOK
 from app.Console.Console import Console, GreenConsole,RedConsole
